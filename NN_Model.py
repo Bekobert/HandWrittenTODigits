@@ -34,5 +34,5 @@ model.fit(x_train, y_train, epochs=4)
 loss, accuracy = model.evaluate(x_test, y_test)
 print(loss, accuracy)
 
-#model.save('handToD.model')
-#HtoD_model = tf.keras.load_model('handToD.model')
+model.save('handToD.model')
+#HtoD_model = tf.keras.models.load_model('handToD.model')
